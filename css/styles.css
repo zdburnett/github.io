@@ -1,0 +1,57 @@
+header {
+  background-color: red;
+
+}
+
+.game{
+	display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100vh;
+  height: 100vh;
+  margin: 0 auto;
+
+}
+.tile {
+	background-color:white;
+	height: 18vh;
+  width: 18vh;
+	border: 3px solid black;
+}
+
+.front{
+  height: 18vh !important; 
+  width: 18vh !important;
+  background-image: url("../logo/questionmark.png");
+  background-size:contain;
+}
+
+.back {
+  height: 18vh !important;
+  width: 18vh !important;
+}
+
+.grayedOut {
+  height: 18vh;
+  width: 18vh;
+  border: 3px solid black;
+  background-color:gray;
+}
+
+p {
+  text-align: center;
+   font-size: 13vh;
+   margin:none;
+   padding:none;
+}
+
+
+
+/*.mercedes {
+  background-image: url("../logo/mercedes.jpeg");
+  background-size: contain;
+}*/
+
+
+
+
+
